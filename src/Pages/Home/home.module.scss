@@ -1,0 +1,42 @@
+.homelayout {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  .sortHeader {
+    .sort {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: flex-end;
+      & > p {
+        font-size: 1rem;
+      }
+    }
+  }
+  .statsSection {
+    margin: 2rem auto;
+    gap: 2rem;
+    display: flex;
+    width: 100%;
+    .statCard {
+      border-radius: 12px;
+      width: 20%;
+      background-color: var(--white-dark-white, #fff);
+      padding: 28px;
+      & > div {
+        display: flex;
+        margin-bottom: 1.2rem;
+        justify-content: space-between;
+        & > p {
+          font-size: 34px;
+          font-weight: 600;
+        }
+        .statCaption {
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--gray-gray-700, #5e6278);
+        }
+      }
+    }
+  }
+}

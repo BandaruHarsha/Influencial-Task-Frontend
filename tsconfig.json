@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node", "lodash"],
     "target": "es5",
     "lib": [
       "dom",

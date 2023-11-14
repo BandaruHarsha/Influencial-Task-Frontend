@@ -1,0 +1,35 @@
+.tableSection {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  height: auto;
+  .tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.75rem;
+    .searchField {
+      width: 220px;
+      background-color: #f9f9f9;
+      border-radius: 6px;
+    }
+    .rightSection {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      .export {
+        display: flex;
+        padding: 9px 12px;
+        align-items: center;
+        gap: 5px;
+        border-radius: 6px;
+        background: var(--primary-primary-light, #eef6ff);
+        & > p {
+          font-size: 13px;
+          font-weight: 700;
+          color: #3e97ff;
+        }
+      }
+    }
+  }
+}

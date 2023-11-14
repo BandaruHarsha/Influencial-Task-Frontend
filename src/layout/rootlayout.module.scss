@@ -1,0 +1,16 @@
+.rootlayout {
+  min-height: 100%;
+  .rootStyle {
+    display: flex;
+    overflow: hidden;
+    padding-top: 80px;
+
+    .mainSection {
+      width: 85%;
+      padding-left: 17%;
+      min-height: 100vh;
+      background-color: #f5f7fa;
+      overflow-y: scroll;
+    }
+  }
+}

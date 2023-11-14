@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 40px;
+  position: fixed;
+  width: 96%;
+  border-bottom: 1px solid var(--gray-gray-300, #e1e3ea);
+  background-color: var(--white-dark-white, #fff);
+  z-index: 1000;
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}

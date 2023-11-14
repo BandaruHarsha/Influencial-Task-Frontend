@@ -1,0 +1,42 @@
+.accountTypeSection {
+  display: flex;
+  flex-direction: column;
+  & > h2 {
+    font-size: 1.5rem;
+    margin: 1px 0;
+  }
+  & > p {
+    font-size: 14px;
+    color: #a1a5b7;
+    & > a {
+      text-decoration: none;
+    }
+  }
+  .types {
+    display: flex;
+    gap: 20px;
+    margin: 2rem auto;
+    .typeBox {
+      padding: 1.5rem;
+      display: flex;
+      gap: 16px;
+      border: 1px dashed var(--primary-primary-active, #2884ef);
+      border-radius: 8px;
+      cursor: pointer;
+      & > div {
+        & > :nth-child(1) {
+          font-size: 1rem;
+          font-weight: 500;
+          padding-bottom: 0.3rem;
+        }
+        & > :nth-child(2) {
+          font-size: 0.75rem;
+          color: #a1a5b7;
+        }
+      }
+    }
+    .typeBox:active {
+      background-color: #eef6ff;
+    }
+  }
+}
